@@ -20,3 +20,8 @@ Merging
 git checkout main          1st go to the branch where we want our merged changes ie main here
 git merge dev --no-ff      the additional “–no-ff” tells git we want to retain all of the commit messages prior to the merge. This will 					make tracking changes easier in the future
 git push origin main       for the merge to show up on github
+
+
+https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6
+https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/
+https://gist.github.com/brandon1024/14b5f9fcfd982658d01811ee3045ff1e
