@@ -6,3 +6,17 @@ git add test.txt
 git commit -m "Add test file"
 git push origin master
 
+#Branching
+
+git checkout -b <new branch name>          eg dev   to create new branch
+git branch -a   			   check which branch we are at
+git checkout <branch name> 	           switch to existing branch
+
+after going on new branch creating new file, staging and committing & pushing it is the same as above
+git push origin dev
+
+Merging
+
+git checkout main          1st go to the branch where we want our merged changes ie main here
+git merge dev --no-ff      the additional “–no-ff” tells git we want to retain all of the commit messages prior to the merge. This will 					make tracking changes easier in the future
+git push origin main       for the merge to show up on github
